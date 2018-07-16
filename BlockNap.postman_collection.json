@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "f7ea3d14-abe2-4ab3-bf6a-973679f699b7",
+		"name": "BlockNap",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Insert Smart Contract",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"date\":\"2018/07/08 14:00\",\r\n    \"issuer\":\"issuer\",\r\n    \"receiver\":\"receiver\",\r\n    \"subject\":\"subject\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/api/insert",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"insert"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

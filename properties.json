@@ -1,0 +1,9 @@
+{
+    "account":"ADRESS_WALLET",
+    "private":"PRIVATE_KEY_WALLET",
+    "fileSol":"test.sol",
+    "nameSC": ":BlockNapTEST",
+    "host": "https://ropsten.infura.io/PRIVATE_KEY",
+    "gas": "0xee3a8",
+    "gasPrice": "0x12a05f200"
+}
