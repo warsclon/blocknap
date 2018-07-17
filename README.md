@@ -30,19 +30,19 @@
 
 7.Execute init.sh
 
-8. To create a smart contract:
+8.To create a smart contract:
 
--  Call api rest in http://localhost:8080/api/insert
+Call api rest in http://localhost:8080/api/insert
 
 a) With postman (https://www.getpostman.com/) and file BlockNap.postman_collection.json
 
 b) Call post to api/insert with:
 
-- Header: 
+* Header: 
 
 > Content-type application/json
 
-- Body:
+* Body:
 
 >     {  
 >     	"date":"2018/07/08 14:00",    
